@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<RootNamespace>PWD.Identity</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Services\ApiResourceManager.cs" />
+	  <Compile Remove="Services\ClientManager.cs" />
+	  <Compile Remove="Services\IdentityResourceManager.cs" />
+	  <Compile Remove="Services\RoleManager.cs" />
+	  <Compile Remove="Services\UserManager.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\PWD.Identity.Domain\PWD.Identity.Domain.csproj" />
+		<ProjectReference Include="..\PWD.Identity.Application.Contracts\PWD.Identity.Application.Contracts.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.15" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.15" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.15">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Volo.Abp.Account.Application" Version="4.4.3" />
+		<PackageReference Include="Volo.Abp.Identity.Application" Version="4.4.3" />
+		<PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="4.4.3" />
+		<PackageReference Include="Volo.Abp.TenantManagement.Application" Version="4.4.3" />
+		<PackageReference Include="Volo.Abp.FeatureManagement.Application" Version="4.4.3" />
+		<PackageReference Include="Volo.Abp.SettingManagement.Application" Version="4.4.3" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,337 @@
+{
+  "culture": "en",
+  "texts": {
+    "Menu:Home": "Home",
+    "Welcome": "Welcome",
+    "LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information, visit abp.io.",
+
+    "Menu:ClientManagement": "Client Management",
+    "Client": "Client",
+
+    "Permission:IdentityClient": "Client Management",
+    "Permission:Client": "Client",
+    "Permission:Clients": "Client Management",
+    "Permission:Clients.Create": "Create",
+    "Permission:Clients.Edit": "Edit",
+    "Permission:Clients.Delete": "Delete",
+
+    "Permission:Estimate": "Estimate Management",
+
+    "Permission:Project": "Project",
+    "Permission:Projects": "Project Management",
+    "Permission:Projects.Create": "Create",
+    "Permission:Projects.Edit": "Edit",
+    "Permission:Projects.Delete": "Delete",
+
+    "Permission:ProjectVariables": "Project Variable",
+    "Permission:ProjectVariables.Create": "Create",
+    "Permission:ProjectVariables.Edit": "Edit",
+    "Permission:ProjectVariables.Delete": "Delete",
+
+    "Permission:ProjectAnalysisItems": "Project AnalysisItem",
+    "Permission:ProjectAnalysisItems.Create": "Create",
+    "Permission:ProjectAnalysisItems.Edit": "Edit",
+    "Permission:ProjectAnalysisItems.Delete": "Delete",
+
+    "Permission:CivilEstimates": "Civil Estimate Management",
+    "Permission:CivilEstimates.Create": "Create",
+    "Permission:CivilEstimates.PopulateOutput": "Populate Output",
+
+    "Permission:CivilReview": "Review for Civil",
+    "Permission:CivilReview.PopulateOutput": "Populate Output",
+    "Permission:CivilReview.OTM": "OTM",
+    "Permission:CivilReview.LTM": "LTM",
+
+
+    "Permission:EMEstimates": "EM Estimate Management",
+    "Permission:EMEstimates.Create": "Create",
+    "Permission:EMEstimates.PopulateOutput": "Populate Output",
+
+    "Permission:EMReview": "Review for EM",
+    "Permission:EMReview.PopulateOutput": "Populate Output",
+    "Permission:EMReview.OTM": "OTM",
+    "Permission:EMReview.LTM": "LTM",
+
+    //"Permission:SiteFacilities": "General And Site Facilities",
+    //"Permission:SiteFacilities.Create": "Create",
+    //"Permission:SiteFacilities.PopulateOutput": "Populate Output",
+
+    //"Permission:RCC": "RCC & Related items",
+    //"Permission:RCC.Create": "Create",
+    //"Permission:RCC.PopulateOutput": "Populate Output",
+
+    //"Permission:Wall": "Wall",
+    //"Permission:Wall.Create": "Create",
+    //"Permission:Wall.PopulateOutput": "Populate Output",
+
+    //"Permission:ConcreteBlock": "Concrete Block",
+    //"Permission:ConcreteBlock.Create": "Create",
+    //"Permission:ConcreteBlock.PopulateOutput": "Populate Output",
+
+    //"Permission:Door": "Door",
+    //"Permission:Door.Create": "Create",
+    //"Permission:Door.PopulateOutput": "Populate Output",
+
+    //"Permission:Window": "Window",
+    //"Permission:Window.Create": "Create",
+    //"Permission:Window.PopulateOutput": "Populate Output",
+
+    //"Permission:MosaicTiles": "Mosaic And Tiles Work",
+    //"Permission:MosaicTiles.Create": "Create",
+    //"Permission:MosaicTiles.PopulateOutput": "Populate Output",
+
+    //"Permission:PlasterPaint": "Plaster And Paint",
+    //"Permission:PlasterPaint.Create": "Create",
+    //"Permission:PlasterPaint.PopulateOutput": "Populate Output",
+
+    //"Permission:Sanitary": "Sanitary",
+    //"Permission:Sanitary.Create": "Create",
+    //"Permission:Sanitary.PopulateOutput": "Populate Output",
+
+    //"Permission:LimeTerracing": "Lime Terracing",
+    //"Permission:LimeTerracing.Create": "Create",
+    //"Permission:LimeTerracing.PopulateOutput": "Populate Output",
+
+    //"Permission:FalseCeiling": "False Ceiling",
+    //"Permission:FalseCeiling.Create": "Create",
+    //"Permission:FalseCeiling.PopulateOutput": "Populate Output",
+
+    //"Permission:FabricationConstructionJoint": "Fabrication & Construction Joint",
+    //"Permission:FabricationConstructionJoint.Create": "Create",
+    //"Permission:FabricationConstructionJoint.PopulateOutput": "Populate Output",
+
+    //"Permission:RailingFencing": "Railing & Fencing",
+    //"Permission:RailingFencing.Create": "Create",
+    //"Permission:RailingFencing.PopulateOutput": "Populate Output",
+
+    //"Permission:RoadPavement": "Road Pavement",
+    //"Permission:RoadPavement.Create": "Create",
+    //"Permission:RoadPavement.PopulateOutput": "Populate Output",
+
+    //"Permission:Ferrocement": "Ferrocement",
+    //"Permission:Ferrocement.Create": "Create",
+    //"Permission:Ferrocement.PopulateOutput": "Populate Output",
+
+
+    //"Permission:Arboriculture": "Arboriculture",
+    //"Permission:Arboriculture.Create": "Create",
+    //"Permission:Arboriculture.PopulateOutput": "Populate Output",
+
+
+    //"Permission:Tubewell": "Tubewell",
+    //"Permission:Tubewell.Create": "Create",
+    //"Permission:Tubewell.PopulateOutput": "Populate Output",
+
+
+    //"Permission:GasConnection": "Gas Connection",
+    //"Permission:GasConnection.Create": "Create",
+    //"Permission:GasConnection.PopulateOutput": "Populate Output",
+
+    //"Permission:TermiteTreatment": "Termite Treatment",
+    //"Permission:TermiteTreatment.Create": "Create",
+    //"Permission:TermiteTreatment.PopulateOutput": "Populate Output",
+
+    //"Permission:SubSoilInvestigation": "Sub Soil Investigation",
+    //"Permission:SubSoilInvestigation.Create": "Create",
+    //"Permission:SubSoilInvestigation.PopulateOutput": "Populate Output",
+
+    //"Permission:MiscellaneousItems": "Miscellaneous Items",
+    //"Permission:MiscellaneousItems.Create": "Create",
+    //"Permission:MiscellaneousItems.PopulateOutput": "Populate Output",
+
+
+
+    //"Permission:Cable": "Cable setup",
+    //"Permission:Cable.Create": "Create",
+    //"Permission:Cable.PopulateOutput": "Populate Output",
+
+    //"Permission:Transformer": "Transformer Configuration",
+    //"Permission:Transformer.Create": "Create",
+    //"Permission:Transformer.PopulateOutput": "Populate Output",
+
+    //"Permission:Generator": "Generator setup",
+    //"Permission:Generator.Create": "Create",
+    //"Permission:Generator.PopulateOutput": "Populate Output",
+
+    //"Permission:Lift": "Lift setup",
+    //"Permission:Lift.Create": "Create",
+    //"Permission:Lift.PopulateOutput": "Populate Output",
+
+    //"Permission:Pump": "Pump setup",
+    //"Permission:Pump.Create": "Create",
+    //"Permission:Pump.PopulateOutput": "Populate Output",
+
+    //"Permission:AC": "Air Condition Configuration",
+    //"Permission:AC.Create": "Create",
+    //"Permission:AC.PopulateOutput": "Populate Output",
+
+    //"Permission:MedicalGas": "Medical Gas setup",
+    //"Permission:MedicalGas.Create": "Create",
+    //"Permission:MedicalGas.PopulateOutput": "Populate Output",
+
+    //"Permission:OverheadDistribution": "Overhead Distribution setup",
+    //"Permission:OverheadDistribution.Create": "Create",
+    //"Permission:OverheadDistribution.PopulateOutput": "Populate Output",
+
+    //"Permission:LightFittings": "Light Fittings setup",
+    //"Permission:LightFittings.Create": "Create",
+    //"Permission:LightFittings.PopulateOutput": "Populate Output",
+
+    //"Permission:StageLight": "Stage Light setup",
+    //"Permission:StageLight.Create": "Create",
+    //"Permission:StageLight.PopulateOutput": "Populate Output",
+
+    //"Permission:WoodFurniture": "Wood Furniture setup",
+    //"Permission:WoodFurniture.Create": "Create",
+    //"Permission:WoodFurniture.PopulateOutput": "Populate Output",
+
+    //"Permission:MultimediaSystem": "Digital Conference & Multimedia System",
+    //"Permission:MultimediaSystem.Create": "Create",
+    //"Permission:MultimediaSystem.PopulateOutput": "Populate Output",
+
+    //"Permission:SolarSystem": "Solar System setup",
+    //"Permission:SolarSystem.Create": "Create",
+    //"Permission:SolarSystem.PopulateOutput": "Populate Output",
+
+    //"Permission:VehicleRepair": "Vehicle Repair setup",
+    //"Permission:VehicleRepair.Create": "Create",
+    //"Permission:VehicleRepair.PopulateOutput": "Populate Output",
+
+    //"Permission:FireDetection": "Fire Detection setup",
+    //"Permission:FireDetection.Create": "Create",
+    //"Permission:FireDetection.PopulateOutput": "Populate Output",
+
+    //"Permission:Surveillance": "Surveillance setup",
+    //"Permission:Surveillance.Create": "Create",
+    //"Permission:Surveillance.PopulateOutput": "Populate Output",
+
+    //"Permission:SoundSystem": "PA & Sound System",
+    //"Permission:SoundSystem.Create": "Create",
+    //"Permission:SoundSystem.PopulateOutput": "Populate Output",
+
+    //"Permission:InternetSystem ": "PABX & Internet System setup",
+    //"Permission:InternetSystem .Create": "Create",
+    //"Permission:InternetSystem.PopulateOutput": "Populate Output",
+
+    //"Permission:ElectricalItems ": "Electrical Items setup",
+    //"Permission:ElectricalItems .Create": "Create",
+    //"Permission:ElectricalItems.PopulateOutput": "Populate Output",
+
+
+
+    //"Permission:Affiliations": "Affiliations",
+    //"Permission:Affiliations.Create": "Create",
+    //"Permission:Affiliations.Edit": "Edit",
+    //"Permission:Affiliations.Delete": "Delete",
+
+    //"Permission:BCSBatch": "BCSBatch",
+    //"Permission:BCSBatch.Create": "Create",
+    //"Permission:BCSBatch.Edit": "Edit",
+    //"Permission:BCSBatch.Delete": "Delete",
+
+    //"Permission:Country": "Country",
+    //"Permission:Country.Create": "Create",
+    //"Permission:Country.Edit": "Edit",
+    //"Permission:Country.Delete": "Delete",
+
+    //"Permission:Degree": "Degree",
+    //"Permission:Degree.Create": "Create",
+    //"Permission:Degree.Edit": "Edit",
+    //"Permission:Degree.Delete": "Delete",
+
+    //"Permission:Designation": "Designation ",
+    //"Permission:Designation.Create": "Create",
+    //"Permission:Designation.Edit": "Edit",
+    //"Permission:Designation.Delete": "Delete",
+
+    //"Permission:District": "District ",
+    //"Permission:District.Create": "Create",
+    //"Permission:District.Edit": "Edit",
+    //"Permission:District.Delete": "Delete",
+
+    //"Permission:EmployeeClass": "EmployeeClass ",
+    //"Permission:EmployeeClass.Create": "Create",
+    //"Permission:EmployeeClass.Edit": "Edit",
+    //"Permission:EmployeeClass.Delete": "Delete",
+
+    //"Permission:EmployeeGrade": "EmployeeGrade ",
+    //"Permission:EmployeeGrade.Create": "Create",
+    //"Permission:EmployeeGrade.Edit": "Edit",
+    //"Permission:EmployeeGrade.Delete": "Delete",
+
+    //"Permission:EmployeeType": "EmployeeType ",
+    //"Permission:EmployeeTyp.Create": "Create",
+    //"Permission:EmployeeType .Edit": "Edit",
+    //"Permission:EmployeeType.Delete": "Delete",
+
+    //"Permission:Exam": "Exam ",
+    //"Permission:Exam.Create": "Create",
+    //"Permission:Exam.Edit": "Edit",
+    //"Permission:Exam.Delete": "Delete",
+
+    //"Permission:Grade": "Grade ",
+    //"Permission:Grade.Create": "Create",
+    //"Permission:Grade.Edit": "Edit",
+    //"Permission:Grade.Delete": "Delete",
+
+    //"Permission:Institute": "Institute ",
+    //"Permission:Institute.Create": "Create",
+    //"Permission:Institute.Edit": "Edit",
+    //"Permission:Institute.Delete": "Delete",
+
+    //"Permission:JobStatus": "JobStatus ",
+    //"Permission:JobStatus.Create": "Create",
+    //"Permission:JobStatus.Edit": "Edit",
+    //"Permission:JobStatus.Delete": "Delete",
+
+    //"Permission:Language": "Language ",
+    //"Permission:Language.Create": "Create",
+    //"Permission:Language.Edit": "Edit",
+    //"Permission:Language.Delete": "Delete",
+
+    //"Permission:LeaveType": "Leave Type ",
+    //"Permission:LeaveType.Create": "Create",
+    //"Permission:LeaveType.Edit": "Edit",
+    //"Permission:LeaveType.Delete": "Delete",
+
+
+    //"Permission:PayScale": "Pay Scale ",
+    //"Permission:PayScale.Create": "Create",
+    //"Permission:PayScale.Edit": "Edit",
+    //"Permission:PayScale.Delete": "Delete",
+
+    //"Permission:Subject": "Subject ",
+    //"Permission:Subject.Create": "Create",
+    //"Permission:Subject.Edit": "Edit",
+    //"Permission:Subject.Delete": "Delete",
+
+    //"Permission:TrainingSponsor": "Training Sponsor ",
+    //"Permission:TrainingSponsor.Create": "Create",
+    //"Permission:TrainingSponsor.Edit": "Edit",
+    //"Permission:TrainingSponsor.Delete": "Delete",
+
+    //"Permission:TrainingTopic": "Training Topic ",
+    //"Permission:TrainingTopic.Create": "Create",
+    //"Permission:TrainingTopic.Edit": "Edit",
+    //"Permission:TrainingTopic.Delete": "Delete",
+
+    "Permission:HR": "HR Management",
+
+    "Permission:Setup": "Basic Setup",
+    //"Permission:Setup.Create": "Create",
+    //"Permission:Setup.Edit": "Edit",
+    //"Permission:Setup.Delete": "Delete",
+
+    "Permission:Reports": "Reports",
+    "Permission:Reports.PermanentDistrict": "Permanent District",
+    "Permission:Reports.ServiceHistory": "Service History",
+    "Permission:Reports.PostOccupancy": "Post Occupancy",
+    "Permission:Reports.Retirement": "Retirement",
+
+    "Permission:Employees": "Employee Management",
+    "Permission:Employees.Create": "Create",
+    "Permission:Employees.Edit": "Edit",
+    "Permission:Employees.Delete": "Delete"
+  }
+}
+
